@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -is --write-out "Response code: %{http_code}
+Total time: %{time_total}
+Connect time: %{time_connect}" localhost:8080
