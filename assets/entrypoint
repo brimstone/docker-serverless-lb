@@ -5,7 +5,7 @@ if [ "$PATH_INFO" = "/assets/goldblum.jpg" ]; then
 	echo
 	cat goldblum.jpg
 else
-	echo "404 Not found"
+	echo "Status: 404 Not found"
 	echo
 	echo "Go somewhere else to find $PATH_INFO"
 fi
